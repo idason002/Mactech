@@ -97,7 +97,12 @@ button {
     justify-content: center;
     align-items: center;
     color: #fff;
-    
   }
 
+#hero-body input {
+    height: 30px;
+    background-color: transparent;
+    padding: 10px;
+    font-size: 10px;
+  }
   
