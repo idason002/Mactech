@@ -133,12 +133,20 @@ justify-content: space-between;
 padding: 0 10px;
 border-radius: 10px;
 margin-left: 15px;
+outline: none;
 
 }
 
 #home-input input{
     border: 0;
     
+}
+
+#hero-body input:focus {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  color: inherit;
 }
 
 .check-box .check {
