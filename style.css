@@ -154,3 +154,21 @@ outline: none;
     gap: 20px;
     padding: 20px;
 }
+
+#main {
+  background-color: red;
+  margin: 20px 10px;
+  display: flex;
+  border: 5px solid rgb(202, 202, 202);
+}
+
+#main img {
+   width: 40%;
+   height: 50vh;
+}
+
+#main h5 .red-text{
+  display: flex;
+  flex-direction: column;
+  background-color: #000000;
+}
