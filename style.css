@@ -202,6 +202,7 @@ p {
   border: none;
   height: 15px;
   padding: 20px;
+  margin: 10px;
   border-radius: 5px;
   font-size: 16px;
   cursor: pointer;
@@ -216,11 +217,12 @@ p {
 
 #team-wrap {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 2rem;
   margin: 0 auto;
   padding: 20px;
-  max-width: 1200px;
+  width: 95%;
 }
 
 .team {
@@ -229,7 +231,13 @@ p {
 }
 
 .team h2 {
-  font-size: 2.5em;
+  display: flex;
+  text-align: center;
+  width: 95%;
+  max-width: 375px;
+  border-radius: 5px;
+  background-color: white;
+  font-size: 30px;
   color: #333;
   margin: 0;
 }
@@ -247,6 +255,7 @@ p {
   max-width: 300px;
   text-align: center;
 }
+
 
 .students img {
   width: 100%;
