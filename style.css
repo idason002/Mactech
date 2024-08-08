@@ -131,6 +131,8 @@ header ul li:hover {
   padding: 20px;
 }
 
+/* main */
+
 #main {
   display: flex;
   align-items: center;
@@ -309,3 +311,73 @@ button{
 #btn:hover {
   background-color: rgb(122, 0, 0); 
 }
+
+/* program */
+
+#program-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.program h4 {
+  display: flex;
+}
+
+/* #program-items > div {
+  flex: 1 1 45%;
+  max-width: 45%;
+  box-sizing: border-box;
+} */
+/* 
+#program-items img {
+ object-fit: cover;
+  width: 50%;
+  height: 50vh;
+  border-radius: 3px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+#program-items img:hover {
+  transform: scale(1.05);
+}
+
+.program {
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+ 
+}
+
+.program h4 {
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.program p {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.btn {
+  background-color: #ff0000;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  font-size: 1rem;
+}
+
+.btn:hover {
+  background-color: #790606;
+} */
