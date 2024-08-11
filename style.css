@@ -115,7 +115,7 @@ header ul li:hover {
 
 #home-input input {
   border: 0;
-
+  
 }
 
 #hero-body input:focus {
@@ -127,7 +127,7 @@ header ul li:hover {
 
 .check-box .check {
   display: flex;
-  gap: 20px;
+  gap: 10px;
   padding: 20px;
 }
 
@@ -170,27 +170,7 @@ p {
   margin-bottom: 20px;
 }
 
-.btn {
-  background-color: #000000;
-}
 
-
-/* .red-btn {
-  background-color: red;
-  color: white;
-  border: none;
-  height: 15px;
-  padding: 20px;
-  margin: 10px;
-  border-radius: 5px;
-  font-size: 16px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.red-btn:hover {
-  background-color: darkred;
-} */
 
 /* Team-wrap */
 
@@ -262,6 +242,7 @@ p {
   text-align: center;
   padding: 15px;
   cursor: pointer;
+  font-size: 20px;
   border-radius: 5px;
 }
 
@@ -382,13 +363,13 @@ button {
 
 .btn {
   display: inline-block;
-  
   background-color:red;
   color: #fff;
   padding: 10px;
   margin: 50px;
   border: none;
   border-radius: 5px;
+  font-size: 20px;
   cursor: pointer;
   transition: background-color 0.3s ease;
   
