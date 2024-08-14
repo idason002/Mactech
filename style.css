@@ -62,6 +62,17 @@ header ul li:hover {
   font-size: 22px;
 }
 
+.red-btn {
+  background-color: red;
+  color: white;
+  border: none;
+  text-align: center;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
 /* hero section */
 
 #hero-body {
@@ -148,7 +159,6 @@ header ul li:hover {
   align-items: center;
   justify-content: center;
   padding: 20px;
-  /* background-color: #f4f4f4; */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin: 30px;
 }
@@ -165,9 +175,15 @@ header ul li:hover {
   margin: 20px;
 }
 
-.red-text {
+.text .red-btn {
+  margin-left: 500px;
+  display: flex;
+  
+}
+
+.red-text{
   color: red;
-  margin: 20px;
+  margin: 10px;
 }
 
 .bold {
@@ -245,18 +261,19 @@ p {
 }
 
 
-.red-btn {
+#team-wrap .red-btn {
   background-color: red;
   color: white;
   border: none;
   text-align: center;
-  padding: 15px;
+  padding: 10px;
   cursor: pointer;
   font-size: 20px;
   border-radius: 5px;
+  
 }
 
-.red-btn:hover {
+#team-wrap .red-btn:hover {
   background-color: darkred;
 }
 
@@ -325,7 +342,7 @@ button {
 }
 
 #btn:hover {
-  background-color: #700101;
+  background-color: darkred;
   transform: translateY(-2px);
 }
 
@@ -386,7 +403,7 @@ button {
 }
 
 .btn:hover {
-  background-color: #770808;
+  background-color: darkred;
 }
 
 /* skill */
