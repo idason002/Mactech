@@ -73,6 +73,10 @@ header ul li:hover {
   border-radius: 5px;
 }
 
+.red-btn:hover{
+  background-color: darkred;
+}
+
 /* hero section */
 
 #hero-body {
@@ -432,7 +436,17 @@ button {
 }
 
 
+/* Testimonials */
 
+
+
+
+#Testimonials h2 {
+  font-size: 40px;
+  color: #333;
+  margin: 20px;
+  text-align: center;
+}
 
 
 /* footer */
