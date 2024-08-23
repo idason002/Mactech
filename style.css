@@ -438,15 +438,31 @@ button {
 
 /* Testimonials */
 
+#Testimonials{
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+img {
+  display: flex;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  text-align: center;
+  margin: 30px;
+  
+}
 
 
-
-#Testimonials h2 {
+/* #Testimonials h2 {
   font-size: 40px;
   color: #333;
   margin: 20px;
   text-align: center;
-}
+} */
 
 
 /* footer */
